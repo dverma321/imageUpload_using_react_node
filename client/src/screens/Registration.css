@@ -1,0 +1,68 @@
+/* Registration.css */
+
+.Registration_container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .email,
+  .password {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 1%;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  /* Additional Style for Count */
+  h1 + button {
+    display: block;
+    margin: 10px auto;
+  }
+
+  .yourprofilephoto{
+    padding: 1%;
+    border: 2px solid #000;
+  }
+
+  .yourimage{
+    
+    padding: 1%;
+    
+  }
+
+  .imageholders{
+    display: block;
+    border: 2px solid red;
+    margin: 1%;
+    padding: 1%;
+  }
+
+  .imageholders img{
+    margin: 1%;
+    border: 2px solid #000;
+  }
+  
